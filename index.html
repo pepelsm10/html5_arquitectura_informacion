@@ -12,14 +12,11 @@
   </head>
   <body>
     <header>
-      <figure>
         <img
-          src="logo.png"
-          alt="Logotipo de la página"
+          src="https://i.pinimg.com/736x/b6/7c/bb/b67cbb2069a2c9c2ed786af2016566e9.jpg" 
+          alt="rosa.co"
           style="width: 150px; height: auto"
         />
-        <figcaption>Logotipo de Mi Página</figcaption>
-      </figure>
       <nav>
         <ul>
           <li><a href="#inicio">Inicio</a></li>
@@ -59,30 +56,70 @@
       </section>
 
       <section id="trabajos">
-        <h2>personalizaciones con vinilo</h2>
+        <h2>Personalizaciones con Vinilo</h2>
         <article>
           <header>
             <h3>bmw ...</h3>
             <p><time datetime="2024-11-27">27 de noviembre de 2024</time></p>
-            <img src="" alt="" />
           </header>
           <p>
             En esta foto vemos como hemos colocado el vinilo personalizado a una
             luna de un bmw ...
           </p>
-          <a href="#leer-mas">Leer más...</a>
+          <p>
+            <img 
+            src="https://i.pinimg.com/736x/a5/8f/6c/a58f6ce77614999ee7cbe828180bab4d.jpg" 
+            alt="luna de BMW vinilada"
+            width="400px">
+          </p>
+          <a href="#ver-mas">Ver más...</a>
         </article>
         <article>
           <header>
-            <h3>Título del Artículo 2</h3>
+            <h3>mercedes...</h3>
             <p><time datetime="2024-11-25">25 de noviembre de 2024</time></p>
           </header>
           <p>
-            Descubre cómo mejorar la seguridad de tu red con estos consejos
-            prácticos.
+            Decora tu coche para dejarlo al estilo fast and furius.
           </p>
-          <a href="#leer-mas">Leer más...</a>
+          <p>
+            <img src="https://blog.walltoprint.com/wp-content/uploads/2018/05/Vinilado-de-coches-y-sus-cuidados-blog-para-Walltoprint.jpg" alt="mercedes con vinilo rojo metalizado">
+          </p>
+          <a href="#ver-mas">Ver más...</a>
         </article>
+        <h1>Encuesta de Satisfacción</h1>
+          <form action="/submit" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br><br>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+          <p>¿Cómo calificarías nuestro servicio?</p>
+            <input type="radio" id="excelente" name="calificacion" value="excelente" required>
+            <label for="excelente">Excelente</label><br>
+            <input type="radio" id="bueno" name="calificacion" value="bueno">
+            <label for="bueno">Bueno</label><br>
+            <input type="radio" id="regular" name="calificacion" value="regular">
+            <label for="regular">Regular</label><br>
+            <input type="radio" id="malo" name="calificacion" value="malo">
+            <label for="malo">Malo</label><br><br>
+
+            <label for="recomendacion">¿Nos recomendarías?</label>
+            <select id="recomendacion" name="recomendacion" required>
+                <option value="si">Sí</option>
+                <option value="no">No</option>
+            </select>
+            <br><br>
+
+            <label for="comentarios">Comentarios adicionales:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Escribe tus comentarios aquí..."></textarea>
+            <br><br>
+
+            <button type="submit">Enviar Encuesta</button>
+        </form>
       </section>
     </main>
 
@@ -92,7 +129,7 @@
         <p>Teléfono: <strong>+34 654868620</strong></p>
         <p>
           Email:
-          <a href="mailto:contacto@ejemplo.com">contacto@ejemplo.com</a>
+          <a href="mailto:contacto@ejemplo.com">pepe.rosa.lopez10@gmail.com</a>
         </p>
         <p>Dirección: Calle Margaritas Nº8, Los Molinos (Madrid), España</p>
       </section>
